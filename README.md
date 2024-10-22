@@ -1,0 +1,3 @@
+Mastermind is a game where the object is to guess a secret code based on the feedback the player gets after each attempt, which serve as hints that can be used in the process of elimination. A hint tells the player either that they chose a correct color in the correct position, or a correct color in the wrong position. To recreate this game I made a class, and within that class are some data structures and methods. 
+
+This implementation utilizes data structures for the difficulty level, the secret code (which depends on the difficulty), and the player’s guess. The methods implemented communicate to the player, generate the secret code randomly under the constraints related to difficulty settings, compare the player’s guess to the secret code and count the hints.
